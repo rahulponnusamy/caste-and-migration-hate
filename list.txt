@@ -1,0 +1,37 @@
+ai4bharat/indic-bert
+FacebookAI/xlm-roberta-base
+l3cube-pune/tamil-sentence-bert-nli
+l3cube-pune/tamil-bert
+google/muril-base-cased
+bigscience/bloom-560m
+facebook/xmod-base
+
+
+LoRA:
+Trainable parameter:
+ai4bharat/indic-bert
+trainable params: 26,114 || all params: 33,471,236 || trainable%: 0.0780
+
+FacebookAI/xlm-roberta-base
+trainable params: 887,042 || all params: 278,932,228 || trainable%: 0.3180
+
+l3cube-pune/tamil-sentence-bert-nli
+trainable params: 296,450 || all params: 237,854,212 || trainable%: 0.1246
+
+l3cube-pune/tamil-bert
+trainable params: 296,450 || all params: 237,854,212 || trainable%: 0.1246
+
+google/muril-base-cased
+trainable params: 296,450 || all params: 237,854,212 || trainable%: 0.1246
+
+
+bigscience/bloom-560m
+trainable params: 788,480 || all params: 560,005,120 || trainable%: 0.1408
+
+facebook/xmod-base
+trainable params: 887,042 || all params: 853,360,900 || trainable%: 0.1039
+
+
+
+Instructions:
+Classify the given comment that can be in codemixed or codeswitched or romanized or mix of before there which is in Tamil language into 1 which is Hate Speech on Caste or Migrantion or 0 which is Not-Hate Speech on Caste or Migrantion.
